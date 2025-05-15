@@ -1,4 +1,3 @@
-Timestamp,Appliance,PowerWatts,DurationHours
 2025-05-15 08:00:00,Fridge,150,2.0
 2025-05-15 08:00:00,AirConditioner,1200,1.5
 2025-05-15 08:00:00,LightBulbs,60,3.0

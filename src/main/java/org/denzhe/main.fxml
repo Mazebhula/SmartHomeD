@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="org.denzhe.Main"
+            prefHeight="400.0" prefWidth="600.0">
+
+    <?xml version="1.0" encoding="UTF-8"?>
+    <?import javafx.scene.control.*?>
+    <?import javafx.scene.layout.*?>
+    <VBox xmlns="http://javafx.com/javafx" 
+          xmlns:fx="http://javafx.com/fxml"
+          fx:controller="org.denzhe.ApplianceApp"
+          spacing="10"
+          prefHeight="400.0" 
+          prefWidth="600.0">
+        <TableView fx:id="table">
+            <columns>
+                <TableColumn fx:id="nameColumn" text="Appliance" prefWidth="200"/>
+                <TableColumn fx:id="consumptionColumn" text="Consumption (Watt-hours)" prefWidth="150"/>
+            </columns>
+        </TableView>
+        <Button fx:id="refreshButton" text="Refresh Data" onAction="#refreshData"/>
+    </VBox>
+
+</AnchorPane>
