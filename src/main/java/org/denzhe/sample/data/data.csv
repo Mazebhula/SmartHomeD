@@ -1,0 +1,11 @@
+Timestamp,Appliance,PowerWatts,DurationHours
+2025-05-15 08:00:00,Fridge,150,2.0
+2025-05-15 08:00:00,AirConditioner,1200,1.5
+2025-05-15 08:00:00,LightBulbs,60,3.0
+2025-05-15 12:00:00,Fridge,150,4.0
+2025-05-15 12:00:00,Television,100,2.5
+2025-05-15 12:00:00,WashingMachine,500,1.0
+2025-05-15 18:00:00,Fridge,150,3.0
+2025-05-15 18:00:00,AirConditioner,1200,2.0
+2025-05-15 18:00:00,LightBulbs,60,4.0
+2025-05-15 20:00:00,Television,100,1.5
