@@ -53,7 +53,7 @@ public class ApplianceApp extends Application {
         
         refreshData();
         
-        primaryStage.setTitle("Smart Home Energy Monitor");
+        primaryStage.setTitle("Smart Home Engy Monitor");
         primaryStage.setScene(scene);
         primaryStage.show();
     }
